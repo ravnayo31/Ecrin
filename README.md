@@ -1,1 +1,5 @@
-# Ecrin
+# EcrinSenin İçin Aşkım body { font-family: Arial, sans-serif; text-align: center; background: linear-gradient(45deg, #ff9a9e, #fad0c4); color: white; padding: 20px; } .container { max-width: 400px; margin: auto; background: rgba(255, 255, 255, 0.2); padding: 20px; border-radius: 15px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); } .message { font-size: 20px; margin: 20px 0; } button { background: #ff6b81; color: white; border: none; padding: 10px 20px; font-size: 18px; border-radius: 10px; cursor: pointer; } button:hover { background: #ff4757; } .yes-btn { margin-right: 20px; } .no-btn { position: absolute; } 
+
+Beni Seviyor Musun? ❤️ Evet 💖 Hayır ❌ 
+
+<script> function yesAnswer() { document.querySelector(".message").innerText = "Bunu biliyordum aşkım! 💕"; document.getElementById("loveMusic").play(); } function moveNoButton() { let button = document.querySelector(".no-btn"); let x = Math.random() * window.innerWidth * 0.8; let y = Math.random() * window.innerHeight * 0.8; button.style.left = `${x}px`; button.style.top = `${y}px`; } </script> 
